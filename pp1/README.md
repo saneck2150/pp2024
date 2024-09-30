@@ -1,11 +1,8 @@
 # ULOHA 2
-=========
 
 BUBLE SORT
 
-		Time
-
-10000	0,191
+10000	Time - 0,191
 
 20000	0,845
 
@@ -29,17 +26,26 @@ BUBLE SORT
 
 >*Modifikujte program tak, aby do meraného času nezapočítaval čas načítavania dát, odmerajte spotrebu času a zostavte graf.*
 
-        Buble 1	Buble 2
-10000	0,191	0,189
+10000	Buble 1 - 0,191	Buble 2 - 0,189
+
 20000	0,845	0,821
+
 30000	1,889	1,926
+
 40000	3,446	3,465
+
 50000	5,383	5,565
+
 60000	7,842	8,048
+
 70000	10,896	10,912
+
 80000	14,482	14,491
+
 90000	18,894	18,174
+
 100000	22,003	22,565
+
 
 ![alt text](<pp1_im/Buble 2.png>)
 
@@ -55,7 +61,6 @@ Je potrtebne len vymenit porovnavajucy znak v IF
 
 
 # ULOHA 3
-=========
 
 Quicksort
 
@@ -74,13 +79,12 @@ Quicksort
 
 
 # ULOHA 4
-=========
 
 ![alt text](pp1_im/Quick_Buble.png)
 
 
 # ULOHA 5
-=========
+
 >*Navrhnite optimálny algoritmus z hľadiska časovej zložitosti a určte ju. Implementujte ho v jazyku C.*
 
 _____________________________________________________________________________________________________________________________________________________________________________________________
@@ -95,7 +99,10 @@ ________________________________________________________________________________
 >*Navrhnite optimálny algoritmus, z hľadiska časovej zložitosti, umožňujúci spočítať všetky prirodzené čísla od 1 do n. Určte časovú zložitosť tohto algoritmu a implementujte ho v jazyku C*
 
 Mame známy vzorec na súčet aritmetickej postupnosti
-S = N(N+1)/2     je casovo nezavisly O(1)
+
+		S = N(N+1)/2     
+
+je casovo nezavisly O(1)
 
 _____________________________________________________________________________________________________________________________________________________________________________________________
 >*Navrhnite optimálny algoritmus, z hľadiska časovej zložitosti, umožňujúci spočítať, koľko je v súbore nums.num čísel 0, 1, 2, ... , 65533, 65534, 65535. Aká je pamäťová komplexnosť algoritmu? Ako sa bude meniť pamäťová komplexnosť so stúpajúcim počtom spracovávaných čísel zo súboru nums.num?*
